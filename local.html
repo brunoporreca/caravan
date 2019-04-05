@@ -1,0 +1,229 @@
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+          <title>Caravan - Local</title>
+        </head>
+        <body>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"> <!-- Titulo do modal -->
+              <h5 class="modal-title" id="exampleModalLabel">Entre na sua Conta</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"> <!-- CORPO DO MODAL -->
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Informe seu E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Informe seu e-mail de cadastro.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Lembrar-me da senha</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Logar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NavBAR -->
+         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+           <a href="index.html" class="navbar-brand">
+             <img src="img/caravan.svg" alt="Caravan">
+           </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+           <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="local.html">California</a>
+               <a class="dropdown-item" href="local.html">Paris</a>
+               <a class="dropdown-item" href="local.html">Doublin</a>
+
+              </div>
+            </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="plano.html">Planos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contato.html">Contato <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login <span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item active">
+              <a class="btn btn-outline-primary ml-md-2" href="inscrevase.html">Inscreva-se <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+         </nav>
+      <!--GALERIA -->
+         <section class="container">
+           <div class="text-center my-2">
+           <span class="h6 d-block">O MELHOR DESTINO DE SUA VIAGEM</span>
+           <h2 class="display-4 text-primary">Descubra Dublin</h2>
+           </div>
+           <div class="row">
+              <div class="col-md"> <!--3 coluna de Img -->
+               <a data-fancybox="gallery" href="img/local/foto-1.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-1.jpg" alt="Foto1">
+                </a>
+                <a data-fancybox="gallery" href="img/local/foto-2.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-2.jpg" alt="Foto2">
+                </a>
+                <a data-fancybox="gallery" href="img/local/foto-3.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-3.jpg" alt="Foto3">
+                </a>
+              </div>
+              
+              <div class="col-md"> <!--3 coluna de Img -->
+                <a data-fancybox="gallery" href="img/local/foto-4.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-4.jpg" alt="Foto4">
+                </a>
+                <a data-fancybox="gallery" href="img/local/foto-5.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-5.jpg" alt="Foto5">
+                </a>
+              </div>
+              <div class="col-md"> <!--3 coluna de Img -->
+                <a data-fancybox="gallery" href="img/local/foto-6.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-6.jpg" alt="Foto6">
+                </a>
+                <a data-fancybox="gallery" href="img/local/foto-7.jpg">
+                <img class="img-fluid mb-3" src="img/local/foto-7.jpg" alt="Foto7">
+                </a>
+              </div>
+
+           </div>
+         </section>
+
+         <!--Dados Tabulares (Tabelas) -->
+         <section class="container">
+           <div class="text-center my-2">
+           <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
+           <h2 class="display-4 text-primary">Próximos Eventos</h2>
+           </div>
+           <table class="table table-hover table-responsive-md">
+                <thead> <!--Cabecalho -->
+                  <tr>
+                    <th scope="col">Data</th>
+                    <th scope="col">Evento</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Ticket</th>
+                  </tr>
+                </thead>
+                <tbody> <!--Corpo da tabela -->
+                  <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25/11</th>
+                    <td>Blind Guardian</td>
+                    <td>the PQP</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/12</th>
+                    <td>Zé Marmita e Passa Fome</td>
+                    <td>Bailao do Noca</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15/12</th>
+                    <td>Restart</td>
+                    <td>Parada Gay de SP</td>
+                    <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                  </tr>
+                </tbody>
+              </table>
+         </section>
+
+
+         <!-- RODAPE DA PAGINA (FOOTER) -->
+         <footer class="bg-dark text-white mt-5">
+            <div class="container py-4">
+               <div class="row">
+                  <div class="col-md-3 col-6">
+                     <h6>PÁGINAS</h6>
+                     <ul class="list-unstyled">
+                       <li><a href="planos.html">Planos</a></li>
+                       <li><a href="contato.html">Contato</a></li>
+                       <li><a href="inscricao.html">Inscreva-se</a></li>
+                     </ul>
+
+                  </div>
+
+                   <div class="col-md-3 col-6">
+                     <h6>LOCAIS</h6>
+                     <ul class="list-unstyled">
+                       <li><a href="local.html">Paris</a></li>
+                       <li><a href="local.html">California</a></li>
+                       <li><a href="local.html">Dublin</a></li>
+                     </ul>
+                  </div>
+
+                  <div class="col-4">
+                     <h6>DADOS DE CONTATO</h6>
+                     <ul class="list-unstyled text-secundary">
+                       <li>jukinha1990@gmail.com</li>
+                       <li>(19) 9.97711006</li>
+                       <li>Rua Xavier Ribeiro, 125, Centro</li>
+                     </ul>
+                  </div>
+
+                  <div class="col-md-2">
+                    <h6>REDES SOCIAIS</h6>
+                    <ul class="list-unstyled">
+                      <li><a class="btn btn-outline-secondary mb-2 btn-sm btn-block limiteBotao" href="#">Facebook</a></li>
+                      <li><a class="btn btn-outline-secondary mb-2 btn-sm btn-block limiteBotao" href="#">Instagram</a></li>
+                      <li><a class="btn btn-outline-secondary mb-2 btn-sm btn-block limiteBotao" href="#">Twitter</a></li>
+                    </ul>
+                  </div>
+               </div>
+
+            </div>
+         </footer>
+         <section class="bg-primary text-white text-center py-2">
+          <p class="mt-2">Bruno Porreca @dkzcsgo, brunoporreca90@gmail.com</p>
+
+         </section>
+
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <script type="text/javascript" src="app.js"></script>
+        </body>
+      </html>
